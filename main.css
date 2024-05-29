@@ -1,0 +1,75 @@
+body {
+    font-family: roboto, sans-serif;
+    background-color:#d2fce2;
+}
+
+.navbar {
+    background-color: #98ffc0 ;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: rgb(218, 245, 228);
+    color: rgb(255, 255, 255);
+}
+
+.carousel{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: 100%;
+}
+
+.section-title {
+    font-family: Pacífico, cursive;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-menuprincipal .nav-link.active:hover{
+    color: rgb(99, 194, 96);
+}
+
+#menuprincipal {
+    background-color:rgb(204, 230, 203);
+    border-radius: 10px;
+}
+
+.text-colored{
+    color: rgb(99, 194, 96);
+}
+
+
+.navbar-brand {
+    font-family: pacifico, cursive;
+}
+
+.navbar-toggler {
+    background-color: rgb(99, 194, 96);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#fale-conosco button {
+    background-color: rgb(99, 194, 96) ;
+    color: #fff;
+}
+
+#conhecendo {
+    background-color: #d2fce2;
+}
+
+@media ( max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+        justify-content:center ;
+    }
+}
+
